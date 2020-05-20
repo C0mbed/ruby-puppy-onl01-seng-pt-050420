@@ -15,11 +15,11 @@ class Dog
   end
   
   def save
-    @@all << self.name
+    @@all << self
   end
   
   def self.print_all
-    puts @@all[0]
+    puts @@all[0].name
   end
   
   def self.clear_all
