@@ -18,7 +18,8 @@ class Dog
     @@all << self
   end
   
-  def self@all[0]
+  def self.print_all
+    puts @@all[0]
   end
   
   def self.clear_all
