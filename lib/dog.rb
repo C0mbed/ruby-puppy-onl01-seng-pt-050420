@@ -1,4 +1,4 @@
-# Add your code here
+require 'pry'
 class Dog
   
   attr_accessor :name
@@ -19,6 +19,7 @@ class Dog
   end
   
   def self.print_all
+    binding.pry
     puts @@all
   end
   
